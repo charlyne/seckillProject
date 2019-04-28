@@ -1,0 +1,74 @@
+{
+	"code": "SERVICE_RUN_SUCCESS",
+	"msg": "服务运行成功",
+	"status": 10000,
+	"data": {
+		"city": {
+			"cityId": "1",
+			"amCityId": "892170199360604217",
+			"cityName": "北京市"
+		},
+		"tip": {
+			"show": false,
+			"type": 0,
+			"number": 0
+		},
+		"ads": [{
+			"positionId": "10",
+			"sliderNumber": "1",
+			"sliderIntervalSeconds": "2",
+			"resourceType": 1,
+			"adsItems": [{
+				"resourceId": "5115291712847348750",
+				"resourceName": "3月下旬发改委调价-滴滴出行车生活-老客天降红包",
+				"resourceUrl": "http://aftermarket-amdaonline.didistatic.com/static/amdaonline/1553588899495_%E6%97%A5%E5%B8%B8%E8%80%81%E5%AE%A23%E5%85%83.png",
+				"exposeContent": "",
+				"landingPageType": 1,
+				"landingPageUrl": "https://z.didi.cn/2RP2V",
+				"feature": {
+					"activityId": "560110834370215936",
+					"defined": "2"
+				},
+				"sort": 1,
+				"activityContent": [{
+					"certId": "560842399429689344",
+					"amount": 300,
+					"tradeNo": "560842399429689345",
+					"outTradNo": "f1f96b32c1304395a8aa529d649e5e57",
+					"spec": {
+						"specId": "560110834370215938",
+						"specName": "190327天降红包活动优惠券",
+						"specDesc": "190327天降红包活动优惠券",
+						"specType": 0,
+						"specBatchId": "5114916036378887310",
+						"randomAmount": [null, null],
+						"count": 1,
+						"productId": "159",
+						"quota": 0,
+						"quotaId": 0,
+						"couponInfo": {
+							"couponName": "小桔加油优惠礼券",
+							"couponDetail": " 限小桔加油合作油站使用",
+							"amount": "20000",
+							"discount": "300",
+							"couponType": "1",
+							"expiredTime": "领取后15天内有效",
+							"couponRuleInfo": {
+								"orderRule": "满200.00元可用",
+								"useRule": "活动期间内1张",
+								"getRule": "活动期间内限领1张",
+								"personRule": "加油老用户可领取"
+							}
+						}
+					}
+				}]
+			}],
+			"skyRedPacketActivityId": "560110834370215936"
+		}],
+		"homePageCouponNotify": {
+			"show": false,
+			"couponList": []
+		}
+	},
+	"success": true
+}

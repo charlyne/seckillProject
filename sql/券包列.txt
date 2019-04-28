@@ -1,0 +1,73 @@
+availableGoods接口
+
+{
+	"success": true,
+	"status": 200,
+	"data": {
+		"systemTime": 1553840905337,
+		"goods": [{
+			"goodsId": "316509",
+			"goodsName": "【价值￥30】10张满￥200减￥3加油券",
+			"goodsPrice": 2000,
+			"goodsDesc": "【价值￥30】10张满￥200减￥3加油券",
+			"goodsReferencePrice": 3000,
+			"goodsType": 1,
+			"onlineTime": 1554048000000,
+			"offlineTime": 1556639999000,
+			"imageUrl": ["https://img-hxy021.didistatic.com/static/mclaren/do1_dQLfxykafTCjcvEYXkHN", "https://img-hxy021.didistatic.com/static/mclaren/do1_kp4qnSx7fBxPD2NM2Csr"],
+			"goodsStock": 1000,
+			"tags": "预览一下",
+			"couponTypeText": "加油满200减3",
+			"couponTotalCount": 10
+		}]
+	}
+}
+
+
+
+
+detail接口 即将开抢的时候数据
+{
+	"success": true,
+	"status": 10000,
+	"code": null,
+	"msg": "SUCCESS",
+	"data": {
+		"type": "COUPON",
+		"id": "316509",
+		"storeId": "5018874767488845827",
+		"title": "【价值￥30】10张满￥200减￥3加油券",
+		"price": 2000,
+		"mainPic": "https://img-hxy021.didistatic.com/static/mclaren/do1_kp4qnSx7fBxPD2NM2Csr",
+		"feature": {
+			"couponTotalCount": "10",
+			"purchaseRestrictionNum": "1",
+			"referencePrice": "3000",
+			"couponBatchId": "5115994622305240326"
+		},
+		"coupon": {
+			"batchId": 5115994622305240326,
+			"couponName": "加油3元优惠券",
+			"couponType": 1,
+			"discount": 300,
+			"amount": 20000,
+			"discountAmount": 300,
+			"validityDateTip": "购买即生效，领券30天后失效",
+			"ruleType": 1,
+			"applicableCityList": null,
+			"applicableStoreList": null,
+			"applicableChannelList": ["滴滴车主（APP）"],
+			"onlyFreshUser": false,
+			"couponDesc": "加油满200减3"
+		},
+		"skuList": [{
+			"id": "5110490",
+			"title": "0",
+			"stock": 1000,
+			"price": 2000
+		}],
+		"onlineTime": 1554048000000,
+		"offlineTime": 1556639999000,
+		"currentTime": 1553840928498
+	}
+}
