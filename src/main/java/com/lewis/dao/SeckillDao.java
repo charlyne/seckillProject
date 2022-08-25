@@ -10,6 +10,7 @@ import com.lewis.entity.Seckill;
 
 public interface SeckillDao {
 
+
 	/**
 	 * 减库存
 	 * 
